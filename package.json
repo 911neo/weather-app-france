@@ -1,0 +1,19 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JeevanKumar",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1"
+  }
+}

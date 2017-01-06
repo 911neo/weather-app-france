@@ -1,0 +1,62 @@
+
+
+<div class="card">
+
+  <div class="container">
+    <h4><b>Sélectionner votre ville</b></h4>
+
+    <div class="loader" ng-show="loading">Loading</div>
+
+    <select ng-change="changed()" class="select" ng-model='selectedItem' value="{{selectedItem}}" ng-options='item for item in items'></select>
+
+  </div>
+
+  <label class=selectHeading>{{selectedItem}}</label>
+
+  <label class=icon>
+  <i class="{{iconName}}"></i>
+
+
+  </label>
+
+  <label class="temp">{{temperature}} °</label>
+
+<div class=daysDiv>
+
+
+  <label class="days"> {{daysname1}}  </label>
+  <label class="days"> {{daysname2}}  </label>
+  <label class="days"> {{daysname3}} </label>
+</div>
+
+<label class="daystemp"> <i class="{{day1}}"></i></label>
+
+<label class="daystemp"> <i class="{{day2}}"></i></label>
+
+<label class="daystemp"> <i class="{{day3}}"></i></label>
+
+
+
+
+
+
+  <label class="daystemp"> {{day1TempMax}} °</label>
+
+  <label class="daystemp"> {{day2TempMax}} °</label>
+
+  <label class="daystemp"> {{day3TempMax}} °</label>
+
+
+
+  <label class="daystemp"> {{day1TempMin}} °</label>
+
+  <label class="daystemp"> {{day2TempMin}} °</label>
+
+  <label class="daystemp"> {{day3TempMin}} °</label>
+
+
+
+
+
+
+</div>
